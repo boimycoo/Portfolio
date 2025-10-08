@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <header class="navbar">
+      <div>OLAWALE OLAGOKE</div>
+
+      <button class="menu-btn" id="menu-btn">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li>
+          <a href="#home"><i class="fa-solid fa-house"></i> Home</a>
+        </li>
+        <li>
+          <a href="#about"><i class="fa-solid fa-user"></i> About</a>
+        </li>
+        <li>
+          <a href="#projects"><i class="fa-solid fa-briefcase"></i> Projects</a>
+        </li>
+        <li>
+          <a href="#contact"><i class="fa-solid fa-envelope"></i> Contact</a>
+        </li>
+
+        <div class="socials">
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+      </ul>
+    </header>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <h2>About Me</h2>
+      <div class="flex-cont">
+        <div class="image">
+          <img src="./asset/DSC_4357.jpg" alt="Olawale Olagoke" />
+        </div>
+        <div class="info">
+          <h3>Olawale Olagoke</h3>
+          <p>
+            I'm Olawale Olagoke, a passionate and detail-oriented Web Developer with strong expertise in HTML, CSS, and JavaScript. I specialize in
+            creating modern, responsive, and user-friendly websites that deliver exceptional digital experiences. As a WordPress Developer and
+            Blogger, I combine creativity with technical skills to build scalable websites and share valuable insights about web development and
+            technology. My goal is to craft solutions that not only look great but also perform seamlessly across all platforms. Web Developer |
+            Frontend Developer | WordPress Developer | UI/UX Enthusiast | Blogger
+          </p>
+        </div>
+      </div>
+
+      <div class="skills">
+        <h3>Skills</h3>
+        <div class="flex-container">
+          <div class="flex">
+            <img src="./asset/html5-with-wordmark-color-logo-png_seeklogo-224332.png" alt="HTML5" />
+            <span>HTML5</span>
+          </div>
+          <div class="flex">
+            <img src="./asset/css3-logo-png_seeklogo-186678.png" alt="CSS3" />
+            <span>CSS3</span>
+          </div>
+          <div class="flex">
+            <img src="./asset/bootstrap-5-logo-png_seeklogo-386607.png" alt="Bootstrap" />
+            <span>Bootstrap</span>
+          </div>
+          <div class="flex">
+            <img src="./asset/javascript-js-logo-png_seeklogo-273557.png" alt="JavaScript" />
+            <span>JavaScript</span>
+          </div>
+          <div class="flex">
+            <img src="./asset/react-logo-png_seeklogo-273845.png" alt="React" />
+            <span>React</span>
+          </div>
+          <div class="flex">
+            <img src="./asset/wordpress-icon-logo-png_seeklogo-299143.png" alt="WordPress" />
+            <span>WordPress</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+      <h2>My Projects</h2>
+      <div class="project-container">
+        <div class="project">
+          <h3>Loruki</h3>
+          <img src="./asset/Loruki.jpg" alt="" />
+          <p>A cloud hosting platform that simplifies the deployment and management of applications.</p>
+          <a href="https://boimycoo-project.netlify.app/" class="btn">View Project</a>
+        </div>
+        <div class="project">
+          <h3>Bootstrap</h3>
+          <img src="./asset/Bootstrapp.jpg" alt="" />
+          <p>A front-end framework for developing responsive and mobile-first websites.</p>
+          <a href="https://mycoobootstrap.netlify.app/" class="btn">View Project</a>
+        </div>
+        <div class="project">
+          <h3>Netpod</h3>
+          <img src="./asset/Netpod.jpg" alt="" />
+          <p>A wordpress websites where you can get new job updates.</p>
+          <a href="https://thenetpod.com" class="btn">View Project</a>
+        </div>
+        <div class="project">
+          <h3>SpaceX</h3>
+          <img src="./asset/SpaceX.jpg" alt="" class="img" />
+          <p>A website that provides information about SpaceX's missions, rockets, and technology.</p>
+          <a href="https://spacexclonne.netlify.app/" class="btn">View Project</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="contact-container">
+        <h2>Contact Me</h2>
+        <p>Have a project, collaboration, or idea? Let's connect!</p>
+
+        <div class="contact-content">
+          <!-- Contact Info -->
+          <div class="contact-info">
+            <div class="info-item">
+              <i class="fas fa-envelope"></i>
+              <p>theolawaleolagoke@gmail.com</p>
+            </div>
+
+            <div class="info-item">
+              <i class="fas fa-phone"></i>
+              <p>+234 703 992 9737</p>
+            </div>
+
+            <div class="info-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <p>Ogbomoso, Nigeria</p>
+            </div>
+
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <form action="#" class="contact-form">
+            <div class="form-group">
+              <input type="text" placeholder="Your Name" required />
+              <input type="email" placeholder="Your Email" required />
+            </div>
+
+            <textarea rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-about">
+          <h3>Olawale Olagoke</h3>
+          <p>Web & WordPress Developer | Blogger</p>
+          <p>Creating beautiful, responsive, and user-friendly websites.</p>
+        </div>
+
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h4>Contact Info</h4>
+          <p><i class="fas fa-envelope"></i> theolawaleolagoke@gmail.com</p>
+          <p><i class="fas fa-phone"></i> +234 703 992 9737</p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2025 <span>Olawale Olagoke</span>. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
